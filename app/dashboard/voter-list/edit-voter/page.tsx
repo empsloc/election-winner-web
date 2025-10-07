@@ -44,7 +44,7 @@ const DropdownField = ({ label, value, onChange, items }: any) => (
 
 type Props = { voter: Voter | null };
 
-export default function EditVoterPage({ voter }: Props) {
+export default function EditVoterPage({ voter }: any) {
   const { updateVoter } = useVoters();
   const [open, setOpen] = useState(false);
 
